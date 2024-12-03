@@ -2,13 +2,15 @@
 
 
 //costanti
-const endpoint = 'https://flynn.boolean.careers/exercises/api/random/mail';
+const endpoint = 'https://flynn.boolean.careers/exercises/api/random/mail'; //API che genera email random
 
-const mail = [];
-//procedimento
+const mail = []; //array vuoto che contiene tutte le email ricevute 
+
+
+//funzione che si occupa di recuperare 10 email dalla API
 const fetchEmails = () =>{
 
-    const promises = [];
+    const promises = []; //contiene tutti i risultati delle richieste fetch
     
     for(let i = 0; i < 10; i++){
         
