@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titolo{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 10px 10px lightgray;
+}
+
+ul{
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+}
